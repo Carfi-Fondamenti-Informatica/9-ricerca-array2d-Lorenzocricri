@@ -15,3 +15,4 @@ int main() {
     cout<<numM(num, dim)<<endl;
     return 0;
 }
+
