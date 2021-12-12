@@ -1,13 +1,12 @@
 #include "lib.h"
-#include <string.h>
-bool res (char list[10][20],char name[20],int &i){
-    for(i=0;i<10;i++){
-        if((strcmp(list[i],name))==0){
-            return true;
+float numM (const float num[], int dim){
+    num[dim];
+    float max = num[0];
+    for (int i = 0; i < dim; ++i) {
+        if(max<num[i]){
+            max=num[i];
         }
 
-
     }
-    return false;
-
+    return max;
 }
