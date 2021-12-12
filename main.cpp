@@ -1,18 +1,18 @@
 #include <iostream>
-using namespace std;
 #include "lib.h"
-
-
+using namespace std;
 int main() {
-    int dim;
-    cin>>dim;
-    float num[dim];
-    for (int i = 0; i < dim; ++i) {
-        cin>>num[i];
-
+    char list [10][20];
+    char name [20];
+    int a=0;
+    for(int i=0;i<10;i++){
+        cin>>list[i];
     }
-    numM(num,dim);
-    cout<<numM(num, dim)<<endl;
+    cin>>name;
+    if (res(list,name,a)){
+        cout <<a;
+    }else{
+        cout << "non presente";
+    }
     return 0;
 }
-
