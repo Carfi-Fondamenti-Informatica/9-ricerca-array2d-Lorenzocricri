@@ -1,2 +1,5 @@
-#endif //9_RICERCA_ARRAY2D_LORESQUERI_LIB_H
-bool res (char[][20],char[],int&);
+#ifndef INC_8_LIB_H
+#define INC_8_LIB_H
+float numM (const float num[], int dim);
+
+#endif //INC_8_LIB_H
