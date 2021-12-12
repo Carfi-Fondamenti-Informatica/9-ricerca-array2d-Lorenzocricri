@@ -1,12 +1,17 @@
+#include <iostream>
+using namespace std;
 #include "lib.h"
-float numM (const float num[], int dim){
-    num[dim];
-    float max = num[0];
+
+
+int main() {
+    int dim;
+    cin>>dim;
+    float num[dim];
     for (int i = 0; i < dim; ++i) {
-        if(max<num[i]){
-            max=num[i];
-        }
+        cin>>num[i];
 
     }
-    return max;
+    numM(num,dim);
+    cout<<numM(num, dim)<<endl;
+    return 0;
 }
